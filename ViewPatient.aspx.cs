@@ -16,7 +16,7 @@ public partial class ViewPatient : System.Web.UI.Page
 
         XmlNodeList xnList = xmldoc.SelectNodes("/Patients/Patient");
 
-        divpatient.InnerHtml = "<table style=\"width: 100%\"> <tr><th> Firstname </th><th> Lastname </th><th> Email </th></tr>";
+        divpatient.InnerHtml = "<table style=\"width: 100%\" border=\"1\"> <tr><th> Firstname </th><th> Lastname </th><th> Email </th></tr>";
 
         foreach (XmlNode xn in xnList)
         {
