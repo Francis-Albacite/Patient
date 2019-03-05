@@ -68,7 +68,7 @@ public partial class AddPatient : System.Web.UI.Page
                
                from Patient in _patientlist
                select new XElement("Patient",
-               new XElement("Firstname", Patient.Firstname),
+               new XElement("FirstName", Patient.Firstname),
                new XElement("LastName", Patient.Lastname),
                new XElement("Phone", Patient.Phone),
                new XElement("Email", Patient.Email),
@@ -88,7 +88,7 @@ public partial class AddPatient : System.Web.UI.Page
 
             from Patient in _patientlist
             select new XElement("Patient",
-            new XElement("Firstname", Patient.Firstname),
+            new XElement("FirstName", Patient.Firstname),
             new XElement("LastName", Patient.Lastname),
             new XElement("Phone", Patient.Phone),
             new XElement("Email", Patient.Email),
