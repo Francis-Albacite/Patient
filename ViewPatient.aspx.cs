@@ -26,7 +26,7 @@ public partial class ViewPatient : System.Web.UI.Page
 
             // divpatient.InnerHtml = divpatient.InnerHtml + "<tr><th>" +  firstName + "</th><th>" + lastName + "</th><th>" + email +"</th></tr>";
             divpatient.InnerHtml = divpatient.InnerHtml + "<tr><th>" + firstName + "</th><th>" + lastName + "</th> <th>" + email + "</th>"
-                + "<th><button type = \"button\">Edit</button></th></tr>" 
+                + "<th><button type = \"button\">Edit</button></th>" 
                 + "<th><button type = \"button\">Delete</button></th></tr>";
 
 
